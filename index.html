@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ВК</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<header class="page-header">
+    <a href="#">
+        <img src="logo.png" class="logo">
+        </a> Профильное задание
+</header>
+
+<div class="title">Бронирование переговорной</div>
+
+<form id="myForm">
+    <div class="box">
+    <p><input type="text" required placeholder="Имя"></p>
+
+
+    
+
+    <input  id="phone" type="text" required placeholder="Номер телефона">
+
+<div class="towers">
+    <label for="tower-select">Выберите башню: </label>
+    <select name="city" id="city-select">
+        <option selected disabled hidden></option>
+      <option value="towerA">Башня А</option>
+      <option value="towerB">Башня Б</option>
+    </select>
+</div>
+
+<div class="floor">
+    <label for="floor-select">Выберите этаж:</label>
+    <select name="city" id="fl-select">
+        <option selected disabled hidden></option>
+        <option value="floor3">3</option>
+        <option value="floor4">4</option>
+        <option value="floor5">5</option>
+        <option value="floor6">6</option>
+        <option value="floor7">7</option>
+        <option value="floor8">8</option>
+        <option value="floor9">9</option>
+        <option value="floor10">10</option>
+        <option value="floor11">11</option>
+        <option value="floor12">12</option>
+        <option value="floor13">13</option>
+        <option value="floor14">14</option>
+        <option value="floor15">15</option>
+        <option value="floor16">16</option>
+        <option value="floor17">17</option>
+        <option value="floor18">18</option>
+        <option value="floor19">19</option>
+        <option value="floor20">20</option>
+        <option value="floor21">21</option>
+        <option value="floor22">22</option>
+        <option value="floor23">23</option>
+    </select>
+
+    <div class="pereg">
+        <label for="tower-select">Номер переговорки: </label>
+        <select name="city" id="city-select">
+            <option selected disabled hidden></option>
+            <option value="pereg1">Переговорная №1</option>
+            <option value="pereg2">Переговорная №2</option>
+            <option value="pereg3">Переговорная №3</option>
+            <option value="pereg4">Переговорная №4</option>
+            <option value="pereg5">Переговорная №5</option>
+            <option value="pereg6">Переговорная №6</option>
+            <option value="pereg7">Переговорная №7</option>
+            <option value="pereg8">Переговорная №8</option>
+            <option value="pereg9">Переговорная №9</option>
+            <option value="pereg10">Переговорная №10</option>
+        </select>
+    </div>
+
+
+<!--попробовать джикери-->
+</div> <label for="dateInput">Укажите дату и время:</label>
+<input type="date" list="dateList" id="dateInput">
+</datalist>
+
+<div class="time">
+    <select name="times" id="time-select">
+        <option selected disabled hidden></option>
+        <option value="pereg1">10:00-11:00</option>
+        <option value="pereg2">11:00-12:00</option>
+        <option value="pereg3">12:00-13:00</option>
+        <option value="pereg4">13:00-14:00</option>
+        <option value="pereg5">14:00-15:00</option>
+        <option value="pereg6">15:00-16:00</option>
+        <option value="pereg7">16:00-17:00</option>
+        <option value="pereg8">17:00-18:00</option>
+    </select>
+</div>
+
+<div id="comm">
+    <label for="story">Комментарий</label>
+    <textarea id="story" name="story"></textarea>
+</div>
+
+<div class="buttons">
+    <input type="submit" value="Забронировать">
+</div>
+
+<div id="res">
+    <input type="reset" value="Очистить"></p>
+</div>
+
+</form>
+
+
+</body>
+</html>

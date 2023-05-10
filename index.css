@@ -1,0 +1,105 @@
+#html, body {
+
+    background-color: rgba(0, 0, 0, .9);
+    font-family: Montserat, Arial;
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    color: #ccc;
+    font-family: Montserat, Arial;
+    font-size: 30px;
+    user-select: none;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    padding: 7px;
+}
+.title {
+    margin-top: 1%;
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+    user-select: none;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.box {
+
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(84, 101, 163);
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 350px; 
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ccc;
+    padding: 20px;
+
+}
+
+input[type=text] {
+    margin: 0;
+    resize: vertical;
+    padding:7px;
+    border-radius:7px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    margin-bottom: 7px;
+    
+}
+
+input[type=submit], [type=reset] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 35px;
+    margin: 8px 8px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+  input[type=submit]:hover, [type=reset]:hover {
+    background-color: #45a049;
+  }
+
+  input[type="date"]{
+    padding: 5px;
+    margin:5px auto 10px 10px;
+    border-radius: 7px;
+  }
+#story {
+    margin: 0 auto;
+    padding:7px;
+    border-radius:7px;
+    border:0;
+    resize: none;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+  }
+
+.floor, .towers, .pereg {
+    margin-bottom: 5px;
+}
+
+#fl-select, #city-select, #dateInput, #time-select {
+
+    border: 1px solid #999;
+    font-size: 15px;
+    color: #146496;
+    background-color: #eee;
+    border-radius: 5px;
+}
